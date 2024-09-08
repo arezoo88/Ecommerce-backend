@@ -31,13 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     # Local Apps
     'apps.account'
 ]
@@ -125,3 +126,13 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS = {
+    'site_title': 'Desphixs',
+    'site_header': 'Desphixs',
+    'site_brand': 'Desphixs',
+    'welcome_sign': 'Welcome to Desphixs Store',
+    'copyright': 'Desphixs 2024 Alright Reserved',
+    'show_sidebar': True,
+    'show_ui_builder': True
+}
