@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     # Third Party Apps
     'rest_framework',
     'rest_framework_simplejwt',
+    'drf_yasg',
+
 
     # Local Apps
     'apps.account.apps.AccountConfig'
